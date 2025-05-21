@@ -1,0 +1,50 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+
+
+
+body {
+
+    overflow-x: hidden;
+    line-height: 1.6; 
+    font-family: "Manrope", sans-serif;
+}
+
+ul {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}

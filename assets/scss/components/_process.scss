@@ -1,0 +1,65 @@
+.process {
+    padding: 4rem 2rem;
+    background-color: #fff;
+
+    &__container {
+        max-width: 1152px;
+        margin: 0 auto;
+        border-radius: 0.5rem;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    &__description {
+        max-width: 800px;
+        margin: 0 auto 3rem auto;
+        font-size: 1rem;
+        color: #444;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); // 3 cột
+        gap: 2.5rem 2rem; // khoảng cách giữa các ô
+        justify-items: center;
+
+        @media (max-width: 992px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 600px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__item {
+        max-width: 320px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 1rem 0 0.5rem;
+        }
+
+        &-text {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.5;
+        }
+    }
+
+    &__icon {
+        width: 48px;
+        height: 48px;
+    }
+}

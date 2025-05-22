@@ -1,0 +1,126 @@
+// Stats Section
+.stats {
+    position: absolute;
+    width: 1440px;
+    height: 376px;
+    top: 1807px;
+    left: 0;
+    background-color: $primary-color;
+
+    &__container {
+        height: 376px;
+    }
+
+    &__content {
+        position: relative;
+        width: 1440px;
+        height: 376px;
+    }
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        width: 836px;
+        align-items: flex-start;
+        gap: 8px;
+        position: absolute;
+        top: 68px;
+        left: 302px;
+    }
+
+    &__title {
+        position: relative;
+        width: 836px;
+        margin-top: -1px;
+        font-family: var(--heading-h2-font-family);
+        font-weight: var(--heading-h2-font-weight);
+        color: $text-white;
+        font-size: var(--heading-h2-font-size);
+        text-align: center;
+        letter-spacing: var(--heading-h2-letter-spacing);
+        line-height: var(--heading-h2-line-height);
+        font-style: var(--heading-h2-font-style);
+    }
+
+    &__subtitle {
+        position: relative;
+        align-self: stretch;
+        font-family: var(--lead-lead-1-font-family);
+        font-weight: var(--lead-lead-1-font-weight);
+        color: $text-white;
+        font-size: var(--lead-lead-1-font-size);
+        text-align: center;
+        letter-spacing: var(--lead-lead-1-letter-spacing);
+        line-height: var(--lead-lead-1-line-height);
+        font-style: var(--lead-lead-1-font-style);
+    }
+
+    &__items {
+        position: absolute;
+        width: 1096px;
+        height: 62px;
+        top: 236px;
+        left: 178px;
+    }
+
+    &__item {
+        position: absolute;
+        font-family: "Manrope", Helvetica;
+        font-weight: 700;
+        color: $text-white;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 31px;
+
+        &:nth-child(1) {
+            top: 0;
+            left: 0;
+        }
+
+        &:nth-child(2) {
+            top: 0;
+            left: 273px;
+        }
+
+        &:nth-child(3) {
+            top: 0;
+            left: 599px;
+        }
+
+        &:nth-child(4) {
+            top: 0;
+            left: 906px;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        top: 15px;
+        background-size: 100% 100%;
+
+        &--left {
+            left: 192px;
+            background-image: url(https://c.animaapp.com/maz5rci404ZuUz/img/caretcircledoubleright.png);
+        }
+
+        &--middle {
+            left: 518px;
+            background-image: url(https://c.animaapp.com/maz5rci404ZuUz/img/caretcircledoubleright-1.png);
+        }
+
+        &--right {
+            left: 825px;
+            background-image: url(https://c.animaapp.com/maz5rci404ZuUz/img/caretcircledoubleright-2.png);
+        }
+    }
+
+    &__image {
+        width: 1440px;
+        height: 376px;
+        top: 0;
+        left: 0;
+        position: absolute;
+        object-fit: cover;
+    } }

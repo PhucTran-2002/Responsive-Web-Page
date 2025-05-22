@@ -1,0 +1,121 @@
+// Services Section
+.services {
+    position: absolute;
+    width: 1197px;
+    height: 1080px;
+    top: 2343px;
+    left: 121px;
+
+    &__item {
+        position: absolute;
+        width: 1197px;
+        height: 480px;
+
+        &:first-child {
+            top: 0;
+            left: 0;
+        }
+
+        &:last-child {
+            top: 600px;
+            left: 0;
+        }
+    }
+
+    &__illustration {
+        position: absolute;
+        width: 504px;
+        height: 480px;
+        object-fit: cover;
+
+        .services__item:first-child & {
+            top: 0;
+            left: 693px;
+        }
+
+        .services__item:last-child & {
+            top: 0;
+            left: 0;
+        }
+    }
+
+    &__content {
+        position: absolute;
+
+        .services__item:first-child & {
+            width: 612px;
+            height: 480px;
+            top: 0;
+            left: 0;
+        }
+
+        .services__item:last-child & {
+            width: 552px;
+            height: 480px;
+            top: 0;
+            left: 649px;
+        }
+    }
+
+    &__button {
+        all: unset;
+        box-sizing: border-box;
+        display: flex;
+        width: 160px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 12px;
+        position: absolute;
+        top: 432px;
+        left: 0;
+        background-color: $primary-color;
+        border-radius: 8px;
+    }
+
+    &__button-text {
+        position: relative;
+        width: fit-content;
+        font-family: "Manrope", Helvetica;
+        font-weight: 600;
+        color: $text-white;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 24px;
+        white-space: nowrap;
+    }
+
+    &__description {
+        position: absolute;
+        width: 523px;
+        top: 192px;
+        left: 0;
+        font-family: "Manrope", Helvetica;
+        font-weight: 400;
+        color: var(--textbody);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 32px;
+    }
+
+    &__title {
+        position: absolute;
+        font-family: "Manrope", Helvetica;
+        font-weight: 700;
+        color: var(--texttitle);
+        font-size: 64px;
+        letter-spacing: 0;
+        line-height: 76px;
+
+        .services__item:first-child & {
+            width: 608px;
+            top: 0;
+            left: 0;
+        }
+
+        .services__item:last-child & {
+            width: 548px;
+            top: 0;
+            left: 0;
+        }
+    } }

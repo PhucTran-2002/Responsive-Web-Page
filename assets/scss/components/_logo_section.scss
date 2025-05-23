@@ -1,0 +1,139 @@
+.logo-cloud {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    padding: 59px 165px;
+    position: relative;
+    background-color: var(--text-gray-100);
+
+    &__header {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        position: relative;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    &__title {
+        position: relative;
+        width: 100%;
+        margin-top: -1px;
+        font-family: "Manrope", Helvetica;
+        font-weight: 800;
+        color: var(--text-gray-900);
+        font-size: 48px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 64px;
+    }
+
+    &__description {
+        position: relative;
+        align-self: stretch;
+        font-family: "Manrope", Helvetica;
+        font-weight: 500;
+        color: var(--text-gray-900);
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 32px;
+    }
+
+    &__grid {
+        display: inline-flex;
+        align-items: center;
+        gap: 24px;
+        position: relative;
+        flex: 0 0 auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    &__column {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    &__item {
+        position: relative;
+        width: 170px;
+        height: 96px;
+        background-color: var(--default-white);
+        border-radius: 16px;
+        box-shadow: var(--grey-shadow);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__image {
+        object-fit: cover;
+
+        &--small {
+            width: 118px;
+            height: 59px;
+        }
+
+        &--medium {
+            width: 132px;
+            height: 66px;
+        }
+
+        &--large {
+            width: 134px;
+            height: 67px;
+        }
+    }
+
+    &__logo-wrapper {
+        position: relative;
+        width: 123px;
+        height: 37px;
+    }
+
+    &__view-all {
+        display: flex;
+        width: 167px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        position: relative;
+    }
+
+    &__view-all-text {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Manrope", Helvetica;
+        font-weight: 600;
+        color: #f84646;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 32px;
+        white-space: nowrap;
+    }
+
+    &__arrow-right {
+        position: relative;
+        width: 16px;
+        height: 16px;
+        background-image: url(https://c.animaapp.com/mb06na6zhvg7cX/img/arrowright.png);
+        background-size: 100% 100%;
+    }
+
+    &__ola-logo {
+        position: relative;
+        width: 98px;
+        height: 34px;
+        background-image: url(https://c.animaapp.com/mb06na6zhvg7cX/img/group-1.png);
+        background-size: 100% 100%;
+    } }
